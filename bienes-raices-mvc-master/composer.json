@@ -1,0 +1,22 @@
+{
+    "name": "danie/bienes_raices",
+    "description": "Proyecto web de bienes raices",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./model",
+            "MVC\\": "./",
+            "Controller\\": "./controller"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel",
+            "email": "danielvalladoorozco@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.3",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
